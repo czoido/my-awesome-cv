@@ -1,0 +1,44 @@
+% !TEX TS-program = luatex
+%
+% My Awesome Source CV LaTeX Template
+%
+% https://github.com/czoido/my-awesome-cv
+%
+% This is a modified version of the "Awesome Source CV LaTeX Template"
+% authored by Christophe Roger (Darwiin) 
+%
+% The original files can be downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{my-awesome-cv}
+\addbibresource{publications.bib}
+
+\name{Carlos}{Zoido Benítez}
+\tagline{PhD. Industrial Engineering | Senior Software Engineer | Entrepreneur}
+\photo{2.2cm}{cz}
+\socialinfo{
+	\linkedin{czoido}
+	\github{czoido}\\
+	\smartphone{000 00 00 00}
+	\email{carlos.zoido@gmail.com}
+%	\address{}\\
+%	\infos{}
+}
+\begin{document}
+	\makecvheader
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Carlos Zoido Benítez - CV}}
+		{\thepage}
+	\input{section_headline}
+	\input{section_skills}				    % Section skills
+	\input{section_experience}		% Section experience
+	\input{section_education}				% Section education
+	\input{section_publications}
+	\input{section_projects}				% Section projects
+	\input{section_languages}				% Section languages
+%	\input{section_references} 				% Section references
+\end{document}

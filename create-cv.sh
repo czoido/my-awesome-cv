@@ -1,0 +1,2 @@
+# substitute /Users/carlos/Documents/cv2019/ with your absolute path to the project
+docker run -v /Users/carlos/Documents/cv2019/my-awesome-cv/cv/:/home/cv --rm -it ubuntu-latex bash -c "cd /home/cv && latexmk -cd -f -lualatex -interaction=nonstopmode -output-directory=build -pdf cv.tex"
