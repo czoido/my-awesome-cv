@@ -1,5 +1,5 @@
 My Awesome CV [![CircleCI](https://circleci.com/gh/czoido/my-awesome-cv.svg?style=svg)](https://circleci.com/gh/czoido/my-awesome-cv)
-[![Example](https://img.shields.io/badge/Example-pdf-green.svg)](https://12-163197072-gh.circle-artifacts.com/0/root/project/cv/build/cv.pdf)
+[![Example](https://img.shields.io/badge/Example-pdf-green.svg)](https://15-163197072-gh.circle-artifacts.com/0/root/project/cv/build/cv.pdf)
 
 =================
 
